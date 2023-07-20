@@ -1,9 +1,10 @@
+# Creating a regular workload
 import psycopg2
 from queries import insert_query, delete_query, select_query, count_query, long_select_with_joins_query, update_query
 
 # Import secrets
 import os
-from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv
 
 import time
 
